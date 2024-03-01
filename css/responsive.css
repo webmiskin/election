@@ -1,0 +1,248 @@
+
+
+/* For mobile */
+
+
+@media screen and (max-width: 767px) {
+
+       
+       .htop-left,.htop-right {
+        float: none;
+        text-align: center;
+    }
+
+    .logo-area  {
+        text-align: center;
+    }
+    .menu-area nav ul {
+      display: flex;
+      flex-direction: column;
+     align-items: center;
+   
+    }
+
+
+    
+.logo-area img {
+max-width: 300px;
+width: 100%;
+
+}
+
+.menu-area nav ul li a {
+   font-size: 25px;
+
+
+}
+
+
+.about-ctn h1 {
+   font-size: 25px;
+   letter-spacing: normal;
+   
+
+}
+
+.about-ctn h1::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 3px;
+    position: absolute;
+    background-color: #054f80;
+    top: 50px;
+  }
+
+  .about-ctn a {
+    max-width: 200px;
+    display: block;  
+    margin: auto;
+    text-align: center;
+    
+  }
+
+
+  .about-img {
+    margin-top: 40px;
+
+  }
+
+
+  .cohose-ctn a {
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+   }
+
+    .chose-right-area {
+    display: flex;
+    flex-direction: column;
+   }
+   .chose-right-area img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+   } 
+
+
+   .chose-right-area p {
+    text-align: center;
+   }
+
+   .watch-video-ctn h4 {
+    text-align: center;
+    
+   }
+
+   
+
+   .watch-video-ctn a {
+    display: block;
+    text-align: center;
+    
+   }
+
+
+   .watch-img img {
+    margin-top: 40px;
+   }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* For mobile */
+
+
+
+
+/* For tablet */
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+
+.htop-left p {
+    font-size: 14px;
+}
+
+
+.menu-area nav ul li {
+    margin-left: 20px;
+}
+
+
+.about-img {
+    margin-top: 40px;
+
+  }
+
+  .about-ctn a {
+    max-width: 200px;
+    display: block;  
+    margin: auto;
+    text-align: center;
+    
+  }
+
+
+  
+  .ourservice-area h2::after {
+    content: "";
+    display: block;
+    width: 6%;
+    height: 3px;
+    position: absolute;
+    background-color: #ffffff;
+    top: 8%;
+    left: 45%;
+  }
+
+
+  .cohose-ctn a {
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+   }
+
+
+  
+   .watch-video-ctn h4 {
+    text-align: center;
+    
+   }
+
+   
+
+   .watch-video-ctn a {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    
+   }
+
+
+   .watch-img img {
+    margin-top: 40px;
+
+    width: 100%;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+/* For tablet */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

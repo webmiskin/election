@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600&display=swap");
+
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* header-top */
+
+.header-top-area {
+  background-color: #054f80;
+  padding: 15px 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.htop-left p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.htop-right {
+  float: right;
+}
+
+.htop-right i {
+  color: #fff;
+  margin-left: 10px;
+  background-color: #2b4f80;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+/* header-bottom */
+
+.header-bottom-area {
+  background-color: #f5f6f8;
+  padding: 10px 0;
+}
+
+.logo-area img {
+  margin-left: -20px;
+}
+
+.menu-area nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-area nav ul li {
+  margin-left: 70px;
+}
+
+#home {
+  color: red;
+}
+.menu-area nav ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.menu-area nav ul li a:hover {
+  color: red;
+}
+
+/* banner area */
+
+.banner-area img {
+  width: 100%;
+  height: auto;
+}
+
+/* about-area */
+
+.about-area {
+  padding: 60px 0 55px 0;
+}
+
+.about-ctn h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.about-ctn h1::after {
+  content: "";
+  display: block;
+  width: 75%;
+  height: 3px;
+  position: absolute;
+  background-color: #054f80;
+  top: 50px;
+}
+
+.about-ctn p {
+  margin-top: 40px;
+  text-align: justify;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.about-ctn a {
+  border: 1px solid #054f80;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.about-ctn a:hover {
+  background-color: #054f80;
+  color: #fff;
+}
+
+.about-img img {
+  width: 100%;
+  height: auto;
+}
+
+/* about-area */
+
+/* service-area  */
+
+.ourservice-area {
+  background-color: #054f80;
+  padding: 50px 0 65px 0;
+  position: relative;
+  text-align: center;
+}
+
+.ourservice-area h2 {
+  max-width: 300px;
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.ourservice-area h2::after {
+  content: "";
+  display: block;
+  width: 6%;
+  height: 3px;
+  position: absolute;
+  background-color: #ffffff;
+  top: 14%;
+  left: 45%;
+}
+
+.service-item1 h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.service-item1 p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+/* service-area  */
+
+/*========== our choose area========= */
+.choose-area {
+  padding: 70px 0;
+}
+
+.cohose-ctn {
+  position: relative;
+}
+
+.cohose-ctn h3 {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.cohose-ctn h3::after {
+  content: "";
+  display: block;
+  width: 45%;
+  height: 2px;
+  position: absolute;
+  background-color: black;
+  top: 14%;
+  left: 0;
+}
+
+.cohose-ctn p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.cohose-ctn a {
+  background-color: #054f80;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  text-decoration: none;
+}
+
+.cohose-ctn a:hover {
+  background-color: aqua;
+  color: #fff;
+}
+
+.chose-right-area img {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.chose-right-area p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+/* -=========== choose us area ============ */
+
+/* ===============watch video area ======*/
+
+.watch-video-area {
+  background-color: #054f80;
+  margin-top: 20px;
+  padding: 60px 0;
+  color: #fff;
+}
+
+.watch-video-ctn {
+  padding-right: 70px;
+}
+
+.watch-video-ctn h4 {
+  margin-bottom: 20px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.watch-video-ctn .ctn2 {
+  font-size: 17px;
+  font-family: "Dosis", sans-serif;
+  font-weight: normal;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.watch-video-ctn a {
+  background-color: #f4f6f0;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.watch-video-ctn a:hover {
+  background-color: aqua;
+  color: #fff;
+}
+
+/* ===============watch video area ======*/
+
+/*==== submit-area ==== */
+
+.submit-area {
+  background-color: #170408;
+  padding: 60px 0 30px 0;
+  color: #fff;
+}
+
+.submit-ctn img {
+  margin-bottom: 40px;
+}
+
+.submit-ctn p {
+  font-size: 13px;
+  font-family: "Dosis", sans-serif;
+  font-weight: normal;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.submit-ctn {
+  padding-right: 80px;
+}
+
+.address1 a {
+  color: #fff;
+}
+
+.address1 a i {
+  margin-right: 15px;
+}
+
+.address1 a span {
+  font-size: 11px;
+}
+
+.address2 a {
+  color: #fff;
+}
+
+.address2 a i {
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.contact-area > div a {
+  color: #fff;
+  font-size: 12px;
+}
+
+.cont1 a i {
+  margin-right: 15px;
+}
+
+.form-area h2 {
+  text-transform: uppercase;
+}
+
+.form-area {
+  margin-top: 20px;
+}
+
+/* .form-area h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: #fff;
+    top: 14%;
+    left: 0;
+   } */
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/*==== submit-area ==== */
+
+/*============ footer-area =========*/
+
+.footer-area {
+  padding: 10px 0;
+  background-color: #054f80;
+  color: #fff;
+}
+
+.social-icon i {
+  color: #fff;
+}
+
+/*============ footer-area =========*/
